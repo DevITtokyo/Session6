@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 600px;
+    height: 200px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #eee;
+    margin: 50px auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#task {
+    background-color: #0879fc;
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    width: 600px;
+    height: 50px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 20px;
+}
+#button1 {
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+}
+#new {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    display: inline-flex;
+    width: 600px;
+    height: 50px;
+    align-items: center;
+    padding: 10px 20px;
+}
+span {
+    color: #ddd;
+    padding: 20px 5px 10px 5px ;
+}
+#button2 {
+    background-color: #0879fc;
+    color: white;
+    width: 72px;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+}
+#share {
+    background-color: #eee;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-flex;
+    width: 600px;
+    height: 50px;
+    align-items: center;
+    padding: 10px 20px;
+}
+footer {
+    background-color: #aaa;
+    color: black;
+    font-size: 16px;
+    display: inline-flex;
+    width: 600px;
+    height: 50px;
+   justify-content: center;
+    padding: 10px 20px;
+}
+@media screen and (max-width:420px){
+    #container {
+        width: 414px;
+        height: 150px;
+    }
+    #task {
+        font-size: 16px;
+        width: 414px;
+        height: 40px;
+        padding: 5px 10px;
+    }
+    #button1 {
+        width: 40px;
+        height: 20px;
+        border-radius: 2px;
+        border: none;
+        font-size: 10px;
+    }
+    #new {
+        font-size: 12px;
+        width: 410px;
+        height: 40px;
+        padding: 5px 10px;
+    }
+    span {
+        padding: 5px 0px 5px 0px ;
+    }
+    #button2 {
+        width: 82px;
+        height: 20px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    #share {
+        font-size: 14px;
+        width: 414px;
+        height: 40px;
+        padding: 5px 10px;
+    }
+    footer {
+        font-size: 14px;
+        width: 414px;
+        height: 30px;
+        padding: 5px 10px;
+    }
+}
